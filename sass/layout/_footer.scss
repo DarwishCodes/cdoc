@@ -1,0 +1,11 @@
+.footer {
+    padding: 15rem 0;
+
+    &__link {
+        display: block;
+        text-decoration: none;
+        font-size: 2rem;
+        color: rgba($color-primary, 0.8);
+        margin-bottom: 2rem;
+    }
+}
