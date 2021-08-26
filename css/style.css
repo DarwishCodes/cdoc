@@ -168,9 +168,21 @@ body {
   .header__heading1 {
     font-size: 7rem;
     font-weight: 700; }
+    @media (max-width: 48em) {
+      .header__heading1 {
+        font-size: 5rem; } }
+    @media (max-width: 26.5625em) {
+      .header__heading1 {
+        font-size: 3rem; } }
   .header__heading2 {
     font-size: 7rem;
     font-weight: 200; }
+    @media (max-width: 48em) {
+      .header__heading2 {
+        font-size: 5rem; } }
+    @media (max-width: 26.5625em) {
+      .header__heading2 {
+        font-size: 3rem; } }
   .header__img {
     width: 100%; }
   .header__text {

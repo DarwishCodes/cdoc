@@ -10,12 +10,29 @@
     &__heading1 {
         font-size: 7rem;
         font-weight: 700;
+
+        @include addMediaQuery(tablet) {
+            font-size: 5rem;
+        }
+
+        @include addMediaQuery(phone-l) {
+            font-size: 3rem;
+        }
     }
 
 
     &__heading2 {
         font-size: 7rem;
         font-weight: 200;
+
+        @include addMediaQuery(tablet) {
+            font-size: 5rem;
+        }
+
+        @include addMediaQuery(phone-l) {
+            font-size: 3rem;
+        }
+        
     }
 
     &__img {
