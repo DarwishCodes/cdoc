@@ -21,4 +21,8 @@
     background-color: $color-white;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+
+    @include addMediaQuery(tablet) {
+        padding: 5rem 3rem;
+    }
 }
