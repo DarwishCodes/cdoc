@@ -39,7 +39,7 @@
     align-items: center;
 
     @include addMediaQuery(tablet) {
-      flex-direction: column;
+      flex-wrap: wrap;
       padding: 1rem 0;
     }
   }
@@ -48,7 +48,9 @@
     display: inline-block;
 
     @include addMediaQuery(tablet) {
-      margin-bottom: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 1rem 2rem;
     }
   }
 

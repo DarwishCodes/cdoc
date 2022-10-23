@@ -1,28 +1,48 @@
 .section-what-we-do {
-    padding: 15rem 0;
-    background-color: $color-cyan-light;
+  padding: 15rem 0;
+  background-color: $color-cyan-light;
 }
 
 .section-working-list {
-    padding: 15rem 0;
-    background-color: $color-white;
+  padding: 15rem 0;
+  background-color: $color-white;
+}
+
+.services {
+  &__list {
+    @include addMediaQuery(tablet) {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__text {
+    @include addMediaQuery(tablet) {
+      text-align: center;
+    }
+  }
+
+  &__title {
+    margin: 0 2rem;
+  }
 }
 
 .section-background-color {
-    padding: 15rem 0;
-    background-color: $color-yellow;
+  padding: 15rem 0;
+  background-color: $color-yellow;
 }
 
 .section-service {
-    margin-top: -14rem;
+  margin-top: -14rem;
 }
 .paper {
-    padding: 15rem 20rem;
-    background-color: $color-white;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+  padding: 15rem 20rem;
+  background-color: $color-white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 
-    @include addMediaQuery(tablet) {
-        padding: 5rem 3rem;
-    }
+  @include addMediaQuery(tablet) {
+    padding: 5rem 3rem;
+  }
 }
